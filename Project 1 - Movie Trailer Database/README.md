@@ -19,6 +19,10 @@ When we click on the poster the trailer of thet movie will be played in a modal 
 ## What You will see ?
 
 1. How the website interface looks like: 
-    ![alt text](https://s3-us-west-1.amazonaws.com/full-stack-projects/Movie+trailer+1.PNG)  
+
+    ![alt text](https://s3-us-west-1.amazonaws.com/full-stack-projects/Movie+trailer+1.PNG) 
+    
+    
 2. How the trailer is played when clicked on the poster of a movie:  
+
     ![alt text](https://s3-us-west-1.amazonaws.com/full-stack-projects/Movie+Trailer+2.PNG)  
