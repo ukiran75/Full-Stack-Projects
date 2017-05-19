@@ -1,13 +1,33 @@
+"""Main Program for creation of movies and calling the web view module"""
 import Media
 import fresh_tomatoes
 
-toy_story = Media.Movie("Toy Story", "A Story of a boy and his toys that comes to life",
+#Creating the movies objects by passing the movie info
+toy_story = Media.Movie("Toy Story",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=vwyZH85NQC4")
-bahubali = Media.Movie("Bahubali", "A tory of two brothers fighting for the kingdom",
+
+bahubali = Media.Movie("Bahubali: The Conclusion",
                        "https://www.desiretrees.in/wp-content/uploads/2017/02/Bahubali-Part-2-Baahubali-2-First-Look-Poster-Bahubali-The-Conclusion-HD-Images-Pics-Wallpapers-Shooting-Stills-1.jpg",
                        "https://www.youtube.com/watch?v=qD-6d8Wo3do")
-movies = [toy_story, bahubali]
-#fresh_tomatoes.open_movies_page(movies)
 
-print(Media.Movie.__doc__)
+guardiansOfGalaxy = Media.Movie("Guardians of Galaxy 2",
+                                "http://t2.gstatic.com/images?q=tbn:ANd9GcSzRHzPW9j56dGLliOdUV0lzjeUwfALe9Zn2Ys7Kkwj4YsvDpsh",
+                                "https://www.youtube.com/watch?v=wUn05hdkhjM")
+
+thorRagnarok = Media.Movie("Thor: Ragnarok",
+                           "http://t1.gstatic.com/images?q=tbn:ANd9GcQAmMN0WnVLHXIKsFbj7dp7-HTUmyQ_d46RruMyj7Tv33mqXy7i",
+                           "https://www.youtube.com/watch?v=v7MGUNV8MxU")
+
+sourceCode = Media.Movie("Source Code",
+                         "http://www.gstatic.com/tv/thumb/dvdboxart/8395541/p8395541_d_v8_aa.jpg",
+                         "https://www.youtube.com/watch?v=NkTrG-gpIzE")
+insideJob = Media.Movie("Inside Job",
+                        "http://t3.gstatic.com/images?q=tbn:ANd9GcTYPDIV0DZjHpzSbsGP1uN3N5w2CLEsNAuybEpFIoybYQbLxJ9k",
+                        "https://www.youtube.com/watch?v=FzrBurlJUNk")
+
+#Adding the created movie objects to the list
+movies = [toy_story, bahubali, guardiansOfGalaxy, thorRagnarok, sourceCode, insideJob]
+
+#Sending the movies list as an input to web view creation
+fresh_tomatoes.open_movies_page(movies)

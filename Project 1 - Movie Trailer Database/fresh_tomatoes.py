@@ -155,5 +155,4 @@ def open_movies_page(movies):
 
   # open the output file in the browser
   url = os.path.abspath(output_file.name)
-  print(url)
   webbrowser.open('file://' + url) # open in a new tab, if possible
