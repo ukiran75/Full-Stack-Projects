@@ -1,5 +1,5 @@
 """Main Program for creation of movies and calling the web view module"""
-from  media
+import  media
 import fresh_tomatoes
 
 #Creating the movies objects by passing the movie info
@@ -22,7 +22,7 @@ thorRagnarok = media.Movie("Thor: Ragnarok",
 sourceCode = media.Movie("Source Code",
                          "http://www.gstatic.com/tv/thumb/dvdboxart/8395541/p8395541_d_v8_aa.jpg",
                          "https://www.youtube.com/watch?v=NkTrG-gpIzE")
-insideJob = Media.Movie("Inside Job",
+insideJob = media.Movie("Inside Job",
                         "http://t3.gstatic.com/images?q=tbn:ANd9GcTYPDIV0DZjHpzSbsGP1uN3N5w2CLEsNAuybEpFIoybYQbLxJ9k",
                         "https://www.youtube.com/watch?v=FzrBurlJUNk")
 
